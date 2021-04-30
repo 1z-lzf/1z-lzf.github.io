@@ -34,7 +34,7 @@
 }
 
 body {
-    background-color: #eaeaea;
+    background-color: #E6E6FA;
     margin: 0;
     color: #34495e;
     overflow-x: hidden;
@@ -118,6 +118,12 @@ pre {
     margin-top: 12px;
     -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
     box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
+}
+
+#busuanzi_container_site_pv,
+#busuanzi_value_site_pv,
+#busuanzi_container_site_uv{
+   display: inline !important;
 }
 
 code {
@@ -241,7 +247,8 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #4F9D9D 0%, #7373B9 100%);
+    opacity: 0.8
 }
 
 .text-color {
@@ -594,7 +601,7 @@ header .go-back i {
 }
 
 @-webkit-keyframes rainbow {
-
+/*
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
@@ -636,12 +643,12 @@ header .go-back i {
         background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
-    }
+    }*/
 }
 
 @keyframes rainbow {
 
-    0%,
+  /*  0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
         background: linear-gradient(45deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
@@ -682,7 +689,7 @@ header .go-back i {
         background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
-    }
+    }*/
 }
 
 .index-card {
